@@ -151,6 +151,16 @@ function App() {
 
   return (
     <div className="app-container">
+      {/* Mobile Blocker Overlay */}
+      <div className="mobile-blocker">
+        <div className="blocker-content">
+          <span className="blocker-icon">💻</span>
+          <h2 className="blocker-title">Faqat kompyuter orqali kiring iltimos</h2>
+          <p className="blocker-desc">
+            Ushbu romantik o'yin faqat kompyuter ekranlariga mo'ljallangan. Iltimos, uchrashuv belgilash uchun kompyuterdan tashrif buyuring! 🌸
+          </p>
+        </div>
+      </div>
       {/* Floating hearts animation everywhere */}
       <FloatingHearts />
 
